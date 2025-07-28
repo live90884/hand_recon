@@ -1,0 +1,3 @@
+cd C:\Users\user\Python\flask_mov_cv2_auto
+
+python server.py --model model/model.h5 --port 8891 --classes dataset/classes.txt --eval log/eval.txt
