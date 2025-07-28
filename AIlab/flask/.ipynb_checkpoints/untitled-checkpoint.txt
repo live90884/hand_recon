@@ -1,0 +1,3 @@
+cd C:\Users\AILAB\AILAB\flask
+
+python server.py --model model/model.h5 --port 8891 --classes dataset/classes.txt --eval log/eval.txt

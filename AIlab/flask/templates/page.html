@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div align="center">
+    <br>
+    <form action="{{ url_for('predict')}}" method="POST" enctype = "multipart/form-data">
+        <input type = "file" size = "30" name = "photo"/>
+        <br>
+        <input type = "submit" value = "upload photo" style = "margin-top:15px;"  class = "button"/>
+    </form>
+    <br>
+    {{ prediction_display_area }}
+</div>
+
+</body>
+</html>
